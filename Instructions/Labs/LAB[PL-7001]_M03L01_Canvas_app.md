@@ -11,7 +11,7 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 ## Aprendizaje
 
 - Cómo crear una aplicación de lienzo con una galería vinculada a un origen de datos
-- Cómo dar formato a campos con fórmulas de Power Fx
+- Procedimientos para dar formato a campos con fórmulas de Power Fx
 
 ## Pasos de alto nivel del laboratorio
 
@@ -84,7 +84,7 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
 1. Cambie el nombre del rectángulo a `HeaderRect`.
 
-1. Establezca las propiedades del rectángulo de la manera siguiente:
+1. Establezca las propiedades del rectángulo en la barra de fórmulas de la manera siguiente:
 
    1. X=`0`
    1. Y=`0`
@@ -101,7 +101,7 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
 1. Cambie el nombre de la etiqueta a `HeaderLabel`.
 
-1. Establezca las propiedades de la etiqueta de la manera siguiente:
+1. Establezca las propiedades de la etiqueta en la barra de fórmulas de la manera siguiente:
 
    1. X=`0`
    1. Y=`0`
@@ -124,7 +124,7 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
     ![Captura de pantalla de la adición de una galería.](../media/add-gallery.png)
 
-1. Seleccione **Solicitudes de reserva**.
+1. Seleccione **Solicitudes de reserva** para el origen de datos.
 
     ![Captura de pantalla de las propiedades de la galería.](../media/gallery-properties.png)
 
@@ -146,7 +146,7 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
 1. Cambie el nombre de la galería a `BookingRequestList`.
 
-1. Establezca las propiedades de la galería de la manera siguiente:
+1. Establezca las propiedades de la galería en la barra de fórmulas de la manera siguiente:
 
    1. X=`0`
    1. Y=`80`
@@ -163,7 +163,7 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
     ![Captura de pantalla del campo de cuerpo seleccionado.](../media/body.png)
 
-1. Establezca la propiedad **Text** en la fórmula:
+1. Establezca la propiedad **Text** de la barra de fórmulas en la fórmula:
 
     ```powerappsfl
     Text(Value(ThisItem.Cost), "$#,##0.00")
