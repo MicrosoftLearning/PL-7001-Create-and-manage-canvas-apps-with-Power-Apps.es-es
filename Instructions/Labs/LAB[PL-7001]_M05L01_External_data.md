@@ -33,7 +33,9 @@ En este laboratorio agregará un origen de datos externo.
 
 ### Tarea 1.1 Crear un sitio de SharePoint
 
-1. En el [Portal de Power Apps de creador](https://make.powerapps.com), seleccione el **Iniciador de aplicaciones** en la parte superior izquierda de la ventana del explorador y, a continuación, seleccione **OneDrive**.
+1. En el [Portal de creación de Power Apps](https://make.powerapps.com), seleccione el **Iniciador de aplicaciones** en la parte superior izquierda de la ventana del explorador y, a continuación, seleccione **Sharepoint**.
+
+1. Si se muestra la **Página de inicio de bienvenida a SharePoint**, seleccione **X** para cerrar el cuadro de diálogo.
 
 1. En SharePoint, seleccione **+Crear sitio**.
 
@@ -45,6 +47,8 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **Finalizar**.
 
+1. Si se muestra el cuadro de diálogo emergente **Inicie el diseño de su sitio**, cierre el cuadro de diálogo.
+
 ### Tarea 1.2 Crear una lista de SharePoint
 
 1. En el sitio de SharePoint, seleccione **+ Nuevo** y, a continuación, seleccione **Lista**.
@@ -55,7 +59,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Escriba `Bookings` en **Nombre** y seleccione **Crear**.
 
-1. Seleccione **Agregar columna**, seleccione **Texto** y, luego, **Siguiente**.
+1. Seleccione **+Agregar columna**, seleccione **Texto** y, luego, **Siguiente**.
 
 1. En el panel **Crear una columna**, escriba o seleccione los valores siguientes:
 
@@ -64,7 +68,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **Guardar**.
 
-1. Seleccione **Agregar columna**, seleccione **Texto** y, luego, **Siguiente**.
+1. Seleccione **+Agregar columna**, seleccione **Texto** y, luego, **Siguiente**.
 
 1. En el panel **Crear una columna**, escriba o seleccione los valores siguientes:
 
@@ -73,7 +77,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **Guardar**.
 
-1. Seleccione **Agregar columna**, seleccione **Fecha y hora** y, luego, **Siguiente**.
+1. Seleccione **+ Agregar columna**, seleccione **Fecha y hora** y, luego, **Siguiente**.
 
 1. En el panel **Crear una columna**, escriba o seleccione los valores siguientes:
 
@@ -82,7 +86,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **Guardar**.
 
-1. Seleccione **Agregar columna**, seleccione **Fecha y hora** y, luego, **Siguiente**.
+1. Seleccione **+ Agregar columna**, seleccione **Fecha y hora** y, luego, **Siguiente**.
 
 1. En el panel **Crear una columna**, escriba o seleccione los valores siguientes:
 
@@ -141,7 +145,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **6 seleccionado** junto a **Campos**.
 
-1. Seleccione **Decisión** para **Título**.
+1. Seleccione **Nombre de la mascota** para **Título**.
 
 1. Seleccione **Fecha de inicio** para **Subtítulo**.
 
@@ -151,7 +155,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Cambie el nombre de la galería a `BookingList`.
 
-1. Establezca las propiedades de la galería de la manera siguiente:
+1. Establezca las propiedades de la galería en la barra de fórmulas de la manera siguiente:
 
    1. X=`1000`
    1. Y=`80`
@@ -168,7 +172,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **NextArrow**.
 
-1. Establezca la propiedad **OnSelect** de NextArrow en:
+1. Establezca la propiedad **OnSelect** de NextArrow en la barra de fórmulas como:
 
     ```powerappsfl
     Collect(colRequests, ThisItem)
@@ -178,7 +182,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione el objeto **Aplicación**.
 
-1. Establezca la propiedad **OnStart** de NextArrow en:
+1. Establezca la propiedad **OnStart** de la barra de fórmulas como:
 
     ```powerappsfl
     Clear(colRequests)
@@ -204,7 +208,7 @@ En este laboratorio agregará un origen de datos externo.
 
     ![Captura de pantalla de la edición de la galería.](../media/icon-added-gallery.png)
 
-1. Establezca las propiedades del icono de la manera siguiente:
+1. Establezca las propiedades del icono en la barra de fórmulas de la manera siguiente:
 
    1. X=`150`
    1. Y=`40`
@@ -215,7 +219,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Cambie el nombre del icono a `DeclineIcon`.
 
-1. Establezca la propiedad **OnSelect** de **DeclineIcon** en:
+1. Establezca la propiedad **OnSelect** de **DeclineIcon** en la barra de fórmulas como:
 
     ```powerappsfl
     Patch('Booking Requests', ThisItem, {Decision: 'Decision (Booking Requests)'.Declined})
@@ -247,7 +251,7 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Cambie el nombre de la etiqueta a `UserDetailsLabel`.
 
-1. Establezca la propiedad **OnSelect** de **UserDetailsLabel** en:
+1. Establezca la **propiedad Text** de **UserDetailsLabel** en la barra de fórmulas como:
 
     ```powerappsfl
     Office365Users.MyProfile().Country
