@@ -21,7 +21,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
   
 ## Requisitos previos
 
-- Debe de haber completado **Laboratorio 0: Validación del entorno de laboratorio**
+- Debe de haber completado la práctica **Laboratorio 0: Validación del entorno de laboratorio**
 
 ## Pasos detallados
 
@@ -117,6 +117,8 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Formato: **Texto**
    1. Obligatorio: **Opcional**
 
+1. Seleccione **Guardar**.
+
 ### Tarea 1.4: Adición de una columna de elección
 
 1. En el panel de **columnas y datos de Solicitud de reserva**, seleccione **+** y, en el panel **Nueva columna**, escriba o seleccione los valores siguientes:
@@ -149,6 +151,8 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. Seleccione **Tablas** en el panel de navegación izquierdo.
 
+1. Seleccione **Solicitud de reserva**.
+
 1. En el panel de **columnas y datos de Solicitud de reserva**, seleccione **+** y, en el panel **Nueva columna**, escriba o seleccione los valores siguientes:
 
    1. Nombre para mostrar: `Account`
@@ -159,3 +163,49 @@ En este laboratorio creará tablas y columnas de Dataverse.
     ![Captura de pantalla del panel Nueva columna de búsqueda.](../media/new-lookup.png)
 
 1. Seleccione **Guardar**.
+
+## Ejercicio 3: Datos
+
+### Tarea 3.1: Agregar registros de solicitudes de reserva
+
+1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
+
+1. Asegúrese de que está en el entorno **Dev One**.
+
+1. Seleccione **Tablas** en el panel de navegación izquierdo.
+
+1. Seleccione **Solicitud de reserva**.
+
+1. En el panel **Columnas y datos de solicitudes de reserva**, seleccione el símbolo de menú desplegable junto a **Editar** y seleccione **Editar en una nueva pestaña**.
+
+1. Introduzca o seleccione los siguientes valores:
+
+   1. Nombre de la mascota: `Fido`
+   1. Nombre del propietario: `MOD Administrator`
+   1. Correo electrónico del propietario: Use el correo electrónico del inquilino
+   1. Fecha de inicio: **Mañana**
+   1. Fecha de finalización: **Elegir una fecha de la semana siguiente**
+   1. Coste: `1,000`
+   1. Decisión: **Aceptada**
+
+1. Seleccione **Insertar fila debajo** y escriba o seleccione los valores siguientes:
+
+   1. Nombre de la mascota: `Tom`
+   1. Nombre del propietario: `MOD Administrator`
+   1. Correo electrónico del propietario: Use el correo electrónico del inquilino
+   1. Fecha de inicio: **Elegir una fecha del mes siguiente**
+   1. Fecha de finalización: **Elegir una fecha después de la fecha de inicio**
+   1. Coste: `1,500`
+   1. Decisión: **No decidió**
+
+1. Seleccione **Insertar fila debajo** y escriba o seleccione los valores siguientes:
+
+   1. Nombre de la mascota: `Jim`
+   1. Nombre del propietario: `MOD Administrator`
+   1. Correo electrónico del propietario: Use el correo electrónico del inquilino
+   1. Fecha de inicio: **Elegir una fecha futura del mes actual**
+   1. Fecha de finalización: **Elegir una fecha después de la fecha de inicio**
+   1. Coste: `250`
+   1. Decisión: **Rechazada**
+
+1. Cierre la pestaña Editar datos.

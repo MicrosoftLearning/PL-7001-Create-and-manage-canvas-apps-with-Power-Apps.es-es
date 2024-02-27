@@ -21,7 +21,7 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
   
 ## Requisitos previos
 
-- Debe de haber completado **Laboratorio 0: Validar el ambiente de laboratorio**
+- Debe de haber completado la práctica **Laboratorio 0: Validación del entorno de laboratorio**
 
 ## Pasos detallados
 
@@ -79,6 +79,8 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
     ![Captura de pantalla de la pantalla Examinar en una aplicación de tres pantallas.](../media/three-screen-app-browse-screen.png)
 
+1. Si se mostrase el cuadro de diálogo emergente **Bienvenido a Power Apps Studio**, seleccione **No volver a mostrarme** y seleccione **Omitir**.
+
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio, escriba `Coffee Machines App` y seleccione **Guardar**.
 
 ### Tarea 2.2: Probar la aplicación
@@ -89,7 +91,7 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Seleccione el icono **Editar** en la parte superior derecha de la aplicación. Se abrirá la pantalla Editar.
 
-1. Cambie el **Precio de la máquina** y seleccione el icono **Enviar** en la parte superior derecha de la aplicación.
+1. Cambie el **Precio de la máquina** y seleccione el icono de tic **Enviar elemento** de la parte superior derecha de la aplicación.
 
 1. Seleccione el icono **<** en la parte superior izquierda de la aplicación.
 
@@ -101,15 +103,15 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Escriba `999` para **Precio de la máquina**.
 
-1. Seleccione el icono **Enviar** en la parte superior derecha de la aplicación.
+1. Seleccione el icono **Enviar elemento** de la parte superior derecha de la aplicación.
 
 1. Escriba `Demo` en **Buscar elementos**.
 
 1. Seleccione **X** en la esquina superior derecha para cerrar la ventana.
 
-1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
+1. Si se mostrase el cuadro de diálogo emergente **¿Lo sabía?**, seleccione **No volver a mostrarme** y seleccione **Aceptar**.
 
-1. Seleccione la pestaña **+ Crear** en el menú de la izquierda del portal de Power Apps de creador.
+1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
 
 ## Ejercicio 3: Compilación de una aplicación de lienzo con Copilot
 
@@ -135,7 +137,7 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
     ![Captura de pantalla de la compilación de la aplicación de Copilot.](../media/copilot-app.png)
 
-1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio, escriba `Coffee Repair App` y seleccione **Guardar**.
+1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
 
 1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
 
