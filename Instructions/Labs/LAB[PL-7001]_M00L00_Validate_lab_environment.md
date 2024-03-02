@@ -28,11 +28,11 @@ En este ejercicio, comprobará que puede acceder a Power Apps.
 
 1. Seleccione **Iniciar sesión**.
 
-1. Escriba la `email address` proporcionada por el host de laboratorio autorizado.
+1. Escriba la dirección de correo electrónico proporcionada por el host de laboratorio autorizado.
 
 1. Seleccione **Siguiente**.
 
-1. Escriba la `password` proporcionada por el host de laboratorio autorizado.
+1. Escriba la contraseña proporcionada por el host de laboratorio autorizado.
 
 1. Seleccione **Iniciar sesión**.
 

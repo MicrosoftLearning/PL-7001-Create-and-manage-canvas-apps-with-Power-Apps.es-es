@@ -52,7 +52,7 @@ En este laboratorio, cambiará los colores de los controles de la aplicación.
 
 1. Seleccione **NextArrow**.
 
-1. Establezca la propiedad **Color** de NextArrow en:
+1. Establezca la propiedad **Color** de NextArrow en la barra de fórmulas como:
 
     ```powerappsfl
     RGBA(164, 38, 44, 1)
@@ -60,7 +60,7 @@ En este laboratorio, cambiará los colores de los controles de la aplicación.
 
 1. Seleccione **Cuerpo**.
 
-1. Establezca la propiedad **Color** de Cuerpo en:
+1. Establezca la propiedad **Color** de Body en la barra de fórmulas como:
 
     ```powerappsfl
     If(ThisItem.Cost > 1000, RGBA(164, 38, 44, 1), Color.Black)
@@ -84,7 +84,7 @@ En este laboratorio, cambiará los colores de los controles de la aplicación.
 
 1. Cambie el nombre de la etiqueta a `UserLabel`.
 
-1. Establezca las propiedades de la etiqueta de la manera siguiente:
+1. Establezca las propiedades de la etiqueta en la barra de fórmulas de la manera siguiente:
 
    1. X=`1100`
    1. Y=`20`
