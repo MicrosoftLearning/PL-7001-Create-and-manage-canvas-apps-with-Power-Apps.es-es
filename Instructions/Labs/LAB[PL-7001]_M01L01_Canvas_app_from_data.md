@@ -41,7 +41,7 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
     ![Captura de pantalla del icono de OneDrive.](../media/select-onedrive.png)
 
-1. Seleccione **Su OneDrive está listo**.
+1. Si se muestra un elemento emergente, seleccione **Su OneDrive está listo**.
 
 1. Seleccione **+ Agregar nuevo** y, posteriormente, seleccione **Carga de archivos**
 
@@ -50,6 +50,7 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 1. Vaya a Descargas, seleccione el archivo CoffeeMachineData.xlsx y seleccione **Abrir**.
 
 1. Seleccione **Mis archivos** y compruebe que CoffeeMachineData.xlsx se ha cargado.
+
 
 ## Ejercicio 2: Compilación de una aplicación de lienzo de tres pantallas
 
@@ -75,13 +76,14 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Seleccione **Conectar**.
 
+1. Si aparece el cuadro de diálogo emergente **Bienvenido a Power Apps Studio**, seleccione **No volver a mostrarme esto** y seleccione **Omitir**.
+
 1. Espere a que se compile la aplicación.
 
     ![Captura de pantalla de la pantalla Examinar en una aplicación de tres pantallas.](../media/three-screen-app-browse-screen.png)
 
-1. Si se mostrase el cuadro de diálogo emergente **Bienvenido a Power Apps Studio**, seleccione **No volver a mostrarme** y seleccione **Omitir**.
-
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio, escriba `Coffee Machines App` y seleccione **Guardar**.
+
 
 ### Tarea 2.2: Probar la aplicación
 
@@ -109,21 +111,22 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Seleccione **X** en la esquina superior derecha para cerrar la ventana.
 
-1. Si se mostrase el cuadro de diálogo emergente **¿Lo sabía?**, seleccione **No volver a mostrarme** y seleccione **Aceptar**.
+1. Si aparece el cuadro de diálogo emergente **¿Lo sabía?**, seleccione **No volver a mostrarme** y seleccione **Aceptar**.
 
 1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
+
 
 ## Ejercicio 3: Compilación de una aplicación de lienzo con Copilot
 
 ### Tarea 3.1: Crear la aplicación
 
-1. Vaya al Portal de Power Apps de creador<https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
-1. Seleccione la pestaña **Inicio** en el menú de la izquierda.
+1. Seleccione la pestaña **Inicio** en el menú de navegación izquierdo.
 
-1. En **Vamos a compilar una aplicación. ¿Qué debe hacer?** escriba `Track coffee machine repairs for customers and assign repairs to technicians` y seleccione el icono de flecha.
+1. En **Vamos a compilar una aplicación. ¿Qué debería hacer? ** escriba `Track coffee machine repairs for customers and assign repairs to technicians` y seleccione el icono de flecha **Adelante** para enviar.
 
     ![Captura de pantalla de la solicitud de Copilot.](../media/copilot-prompt.png)
 

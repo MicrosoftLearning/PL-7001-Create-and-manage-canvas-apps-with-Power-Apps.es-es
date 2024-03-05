@@ -33,9 +33,9 @@ En este laboratorio agregará un origen de datos externo.
 
 ### Tarea 1.1 Crear un sitio de SharePoint
 
-1. En el [Portal de creación de Power Apps](https://make.powerapps.com), seleccione el **Iniciador de aplicaciones** en la parte superior izquierda de la ventana del explorador y, a continuación, seleccione **Sharepoint**.
+1. En el portal de Creadores de Power Apps, `https://make.powerapps.com` seleccione el **Iniciador de aplicaciones** en la parte superior izquierda de la ventana del explorador y, a continuación, seleccione **SharePoint**.
 
-1. Si se muestra la **Página de inicio de bienvenida a SharePoint**, seleccione **X** para cerrar el cuadro de diálogo.
+1. Si se muestra la **Página de inicio de bienvenida a SharePoint**, seleccione **✖** para cerrar el cuadro de diálogo.
 
 1. En SharePoint, seleccione **+Crear sitio**.
 
@@ -48,6 +48,7 @@ En este laboratorio agregará un origen de datos externo.
 1. Seleccione **Finalizar**.
 
 1. Si se muestra el cuadro de diálogo emergente **Inicie el diseño de su sitio**, cierre el cuadro de diálogo.
+
 
 ### Tarea 1.2 Crear una lista de SharePoint
 
@@ -97,17 +98,19 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Copie la primera parte de la dirección URL del sitio de SharePoint, por ejemplo, `https://m365x99999999.sharepoint.com/sites/Petboarding/`
 
+
 ## Ejercicio 2: Incorporación de la lista de SharePoint a la aplicación de lienzo
 
 ### Tarea 2.1: Editar la aplicación
 
-1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
-1. En el menú de la izquierda, seleccione la pestaña **Aplicaciones**.
+1. Seleccione la pestaña **Aplicaciones** en el menú de navegación de la izquierda.
 
 1. Seleccione la **aplicación Solicitud de reserva**, los comandos (**...**) y **Editar > Editar en una pestaña nueva**.
+
 
 ### Tarea 2.2: Agregar SharePoint como origen de datos
 
@@ -145,11 +148,11 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **6 seleccionado** junto a **Campos**.
 
-1. Seleccione **Nombre de la mascota** para **Título**.
+1. Seleccione **Nombre de la mascota** para **Title3**.
 
-1. Seleccione **Fecha de inicio** para **Subtítulo**.
+1. Seleccione **Fecha de inicio** para **Subtitle3**.
 
-1. Cerrar el panel Datos.
+1. Cerrar el panel **Datos**.
 
 1. En el menú de creación de aplicaciones, seleccione **Vista de árbol**.
 
@@ -206,14 +209,14 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **Bloqueado**. El icono se agregará a cada fila de la galería.
 
-    ![Captura de pantalla de la edición de la galería.](../media/icon-added-gallery.png)
-
 1. Establezca las propiedades del icono en la barra de fórmulas de la manera siguiente:
 
    1. X=`150`
    1. Y=`40`
    1. Altura=`30`
    1. Ancho=`30`
+
+    ![Captura de pantalla de la edición de la galería.](../media/icon-added-gallery.png)
 
 1. En el menú de creación de aplicaciones, seleccione **Vista de árbol**.
 
@@ -237,9 +240,10 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Seleccione **Conectar**.
 
+
 ### Tarea 5.2 Mostrar el país del usuario
 
-1. Haga clic fuera de la galería en el lienzo en blanco.
+1. Seleccione fuera de la galería en el lienzo en blanco, o seleccione la **MainScreen** en la **Vista en árbol**.
 
 1. En el menú de creación de aplicaciones, seleccione **Insertar (+)**.
 
@@ -257,6 +261,14 @@ En este laboratorio agregará un origen de datos externo.
     Office365Users.MyProfile().Country
     ```
 
+1. Establezca las propiedades de la etiqueta en la barra de fórmulas de la manera siguiente:
+
+   1. X=`930`
+   1. Y=`20`
+   1. Tamaño=`18`
+   1. Color=`Color.White`
+
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
 
 1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
+
