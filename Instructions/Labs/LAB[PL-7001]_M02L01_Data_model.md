@@ -29,7 +29,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 ### Tarea 1.1: Creación de la tabla Solicitud de reserva
 
-1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
@@ -39,7 +39,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
     ![Captura de pantalla de la creación de una nueva tabla en Dataverse](../media/create-new-table-dataverse.png)
 
-1. Seleccione el icono de **lápiz** situado junto a Nueva tabla
+1. Seleccione el icono del lápiz **Editar propiedades de tabla** situado junto a **Nueva tabla**.
 
     ![Captura de pantalla del nombre de la nueva tabla.](../media/table-name.png)
 
@@ -145,7 +145,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 ### Tarea 2.1: Creación de una columna de búsqueda
 
-1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
@@ -209,3 +209,4 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Decisión: **Rechazada**
 
 1. Cierre la pestaña Editar datos.
+
