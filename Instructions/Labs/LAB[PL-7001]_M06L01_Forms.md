@@ -37,13 +37,14 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 ### Tarea 1.1: Edición de la aplicación
 
-1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
-1. En el menú de la izquierda, seleccione la pestaña **Aplicaciones**.
+1. Seleccione la pestaña **Aplicaciones** en el menú de navegación de la izquierda.
 
 1. Seleccione la **aplicación Solicitud de reserva**, los comandos (**...**) y **Editar > Editar en una pestaña nueva**.
+
 
 ### Tarea 1.2: Agregar pantallas
 
@@ -63,11 +64,14 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Cambie el nombre de la pantalla a `DetailScreen`.
 
+
 ### Tarea 1.3: Agregar navegación
 
-1. Seleccione **NextArrow** en **BookingRequestList** en **MainScreen**.
+1. En la **Vista de árbol**, expanda **BookingRequestList** en **MainScreen**.
 
-1. Establezca la propiedad **OnSelect** de NextArrow en:
+1. Seleccione **NextArrow** en **BookingRequestList**.
+
+1. Establezca la propiedad **OnSelect** de NextArrow en la barra de fórmulas como:
 
     ```powerappsfl
     Collect(colRequests, ThisItem);Navigate(DetailScreen, ScreenTransition.Cover);
@@ -91,7 +95,10 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Expanda **DetailScreen**.
 
+1. Expanda **ScreenContainer**.
+
 1. Seleccione **HeaderContainer** y seleccione Comandos (**...**) y **Pegar**.
+
 
 ## Ejercicio 2: Pantalla Detalles
 
@@ -119,7 +126,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
     ![Captura de pantalla de los campos de formulario predeterminados.](../media/add-fields-default.png)
 
-1. Para quitar **Creado el**, seleccione los puntos suspensivos (**...**) situados junto al campo y seleccione **Quitar**.
+1. Elimine **Creado el** seleccionando los puntos suspensivos (**...**) junto al campo y seleccionando **Eliminar**.
 
 1. Seleccione **+ Agregar campo** y seleccione los campos siguientes:
 
@@ -148,7 +155,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. **Cierre** el panel **Campos**.
 
-1. Establezca la propiedad **Item** del control del visor de formularios en:
+1. Establezca la propiedad **Item** del control del visor de formularios en la barra de fórmulas:
 
     ```powerappsfl
     BookingRequestList.Selected
@@ -222,7 +229,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Seleccione **2 seleccionado** junto a **Campos**.
 
-1. Para quitar **Creado el**, seleccione los puntos suspensivos (**...**) situados junto al campo y seleccione **Quitar**.
+1. Elimine **Creado el** seleccionando los puntos suspensivos (**...**) junto al campo y seleccionando **Eliminar**.
 
 1. Seleccione **+ Agregar campo** y seleccione los campos siguientes:
 
@@ -265,6 +272,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
    1. Diseño=`Horizontal`
 
     ![Captura de pantalla del formulario de solicitud de reserva configurado.](../media/bookingrequestform.png)
+
 
 ### Tarea 3.2: Agregar botón Enviar
 
@@ -361,3 +369,4 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
 
 1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
+

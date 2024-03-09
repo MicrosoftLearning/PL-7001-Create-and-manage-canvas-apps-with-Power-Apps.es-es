@@ -48,9 +48,9 @@ En este laboratorio, cambiará los colores de los controles de la aplicación.
 
 1. En el menú de creación de aplicaciones, seleccione **Vista de árbol**.
 
-1. Expanda la galería.
+1. Expanda la galería **BookingRequestList**.
 
-1. Seleccione **NextArrow**.
+1. Seleccione **NextArrow2**.
 
 1. Establezca la propiedad **Color** de NextArrow en la barra de fórmulas como:
 
@@ -58,7 +58,7 @@ En este laboratorio, cambiará los colores de los controles de la aplicación.
     RGBA(164, 38, 44, 1)
     ```
 
-1. Seleccione **Cuerpo**.
+1. Seleccione **Body1**.
 
 1. Establezca la propiedad **Color** de Body en la barra de fórmulas como:
 
@@ -68,11 +68,12 @@ En este laboratorio, cambiará los colores de los controles de la aplicación.
 
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
 
+
 ## Ejercicio 2: Personalización
 
 ### Tarea 2.1: Adición de etiqueta de usuario
 
-1. Haga clic fuera de la galería en el lienzo en blanco.
+1. Seleccione fuera de la galería en el lienzo en blanco o seleccione la **MainScreen**.
 
 1. En el menú de creación de aplicaciones, seleccione **Insertar (+)**.
 
