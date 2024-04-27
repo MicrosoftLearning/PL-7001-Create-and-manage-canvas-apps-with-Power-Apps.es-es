@@ -110,7 +110,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Expanda **ScreenContainer1**.
 
-1. Seleccione  **MainContainer1**.
+1. Seleccione **MainContainer1**.
 
 1. En el menú de creación de aplicaciones, seleccione **Insertar (+)**.
 
@@ -169,7 +169,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Expanda **ScreenContainer1**.
 
-1. Seleccione  **FooterContainer1**.
+1. Seleccione **FooterContainer1**.
 
 1. Seleccione  **+** en el contenedor Pie de página.
 
@@ -191,7 +191,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Expanda **ScreenContainer1**.
 
-1. Seleccione  **FooterContainer1**.
+1. Seleccione **FooterContainer1**.
 
 1. En el menú de creación de aplicaciones, seleccione **Insertar (+)**.
 
