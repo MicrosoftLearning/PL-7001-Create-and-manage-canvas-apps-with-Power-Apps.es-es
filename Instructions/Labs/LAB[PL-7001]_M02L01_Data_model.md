@@ -35,29 +35,21 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. Seleccione **Tablas** en el panel de navegación izquierdo.
 
-1. Seleccione **+ Nueva tabla** y después **Agregar columnas y datos**.
+1. Seleccione **+ Nueva tabla** y elige **Establecer propiedades avanzadas**.
 
     ![Captura de pantalla de la creación de una nueva tabla en Dataverse](../media/create-new-table-dataverse.png)
 
-1. Seleccione el icono del lápiz **Editar propiedades de tabla** situado junto a **Nueva tabla**.
-
-    ![Captura de pantalla del nombre de la nueva tabla.](../media/table-name.png)
-
 1. En **Nombre para mostrar**, escriba `Booking Request`.
-
-1. Seleccione **Guardar**.
 
 ### Tarea 1.2: Columna principal
 
-1. Seleccione el símbolo de intercalación desplegable situado junto a **Nueva columna** y seleccione **Editar columna**.
+1. Selecciona la pestaña **columna principal** situada junto a la pestaña **Propiedades**.
 
     ![Captura de pantalla de la columna principal.](../media/primary-column.png)
 
 1. En **Nombre para mostrar**, escriba `Pet Name`.
 
-1. Selecciona **Actualización**.
-
-1. Seleccione **Crear**.
+1. Seleccione **Guardar**.
 
 ### Tarea 1.3: Adición de columnas
 

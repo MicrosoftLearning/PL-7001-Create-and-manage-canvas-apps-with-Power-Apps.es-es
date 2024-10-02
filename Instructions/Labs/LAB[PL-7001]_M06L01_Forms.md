@@ -110,7 +110,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Expanda **ScreenContainer1**.
 
-1. Seleccione **MainContainer1**.
+1. Seleccione  **MainContainer1**.
 
 1. En el menú de creación de aplicaciones, seleccione **Insertar (+)**.
 
@@ -122,21 +122,16 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. En las propiedades de FormViewer, seleccione **Solicitudes de reserva** para **Origen de datos**.
 
-1. Seleccione **2 seleccionado** junto a **Campos**.
+1. Seleccione **8 seleccionados** junto a **Campos**.
 
     ![Captura de pantalla de los campos de formulario predeterminados.](../media/add-fields-default.png)
 
-1. Elimine **Creado el** seleccionando los puntos suspensivos (**...**) junto al campo y seleccionando **Eliminar**.
+1. Elimina los campos **Estado** y **Notas** seleccionando los puntos suspensivos (**...**) junto a los campos y seleccionando **Eliminar**.
 
-1. Seleccione **+ Agregar campo** y seleccione los campos siguientes:
+1. Selecciona **+ Agregar campo** y selecciona el campo siguiente:
 
-   1. Costee
    1. Decisión
-   1. Fecha de finalización
-   1. Correo electrónico del propietario
-   1. Nombre del propietario
-   1. Fecha de inicio
-
+   
     ![Captura de pantalla de la adición de campos al formulario.](../media/add-fields.png)
 
 1. Seleccione **Agregar**.
@@ -169,7 +164,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Expanda **ScreenContainer1**.
 
-1. Seleccione **FooterContainer1**.
+1. Seleccione  **FooterContainer1**.
 
 1. Seleccione  **+** en el contenedor Pie de página.
 
@@ -191,7 +186,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Expanda **ScreenContainer1**.
 
-1. Seleccione **FooterContainer1**.
+1. Seleccione  **FooterContainer1**.
 
 1. En el menú de creación de aplicaciones, seleccione **Insertar (+)**.
 
@@ -227,19 +222,9 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. En las propiedades del formulario, seleccione **Solicitudes de reserva** para **Origen de datos**.
 
-1. Seleccione **2 seleccionado** junto a **Campos**.
+1. Seleccione **8 seleccionados** junto a **Campos**.
 
-1. Elimine **Creado el** seleccionando los puntos suspensivos (**...**) junto al campo y seleccionando **Eliminar**.
-
-1. Seleccione **+ Agregar campo** y seleccione los campos siguientes:
-
-   1. Costee
-   1. Fecha de finalización
-   1. Correo electrónico del propietario
-   1. Nombre del propietario
-   1. Fecha de inicio
-
-1. Seleccione **Agregar**.
+1. Elimina **Decisión** y **Notas** seleccionando los puntos suspensivos (**...**) junto a los campos y seleccionando **Eliminar**.
 
 1. Arrastre los campos en el orden siguiente:
 

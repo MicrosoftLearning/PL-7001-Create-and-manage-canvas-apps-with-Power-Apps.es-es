@@ -126,15 +126,22 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Seleccione la pestaña **Inicio** en el menú de navegación izquierdo.
 
-1. En **Vamos a compilar una aplicación. ¿Qué debería hacer? ** escriba `Track coffee machine repairs for customers and assign repairs to technicians` y seleccione el icono de flecha **Adelante** para enviar.
+1. En **Vamos a compilar una aplicación. ¿Qué debería hacer? ** escriba `Assign coffee repairs to technicians per customer request` y seleccione el icono de flecha **Adelante** para enviar.
 
     ![Captura de pantalla de la solicitud de Copilot.](../media/copilot-prompt.png)
 
+    Copilot comenzará a crear una estructura de tabla para admitir la aplicación.
+
+    > **IMPORTANTE:** Al usar la Inteligencia artificial generativa, no siempre obtendrá los mismos resultados exactos. Es posible que la tabla no coincida exactamente con la tabla creada para otro alumno. 
+
+    > Para ver la estructura de la tabla, selecciona la tabla y haz clic en el botón **Ver datos** 
 1. Revisión de la tabla
 
     ![Captura de pantalla de la tabla de Copilot.](../media/copilot-table.png)
 
-1. Seleccione **Crear aplicación**
+1. Cuando estés satisfecho con la tabla, selecciona el botón **Guardar y abrir aplicación**. 
+
+1. Si es necesario, en la pantalla **¿Has terminado de trabajar?**, selecciona **No volver a preguntarme** y, después, selecciona el botón **Guardar y abrir aplicación**. 
 
 1. Espere a que se compile la aplicación.
 
