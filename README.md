@@ -8,13 +8,13 @@
 
 - Esperamos que esto le dé un sentido de colaboración a los laboratorios como nunca antes hemos tenido. Si Power Platform cambia y lo descubre primero durante una entrega en vivo, no dude en hacer una mejora directamente en el origen del laboratorio. Ayude a otros MCT.
 
-## ¿Cómo debo usar estos archivos en relación con los archivos publicados del curso dirigido por un instructor de Microsoft Learn?
+## ¿Cómo debo usar estos archivos en relación con los archivos de entrenamiento publicados del curso dirigido por un instructor de Microsoft Learn?
 
-- La guía de preparación del instructor y las presentaciones de diapositivas de PowerPoint seguirán siendo el origen principal para enseñar el contenido del curso.
+- La guía de preparación del instructor y las presentaciones de diapositivas de PowerPoint seguirán siendo la fuente principal para enseñar el contenido del curso.
 
 - Estos archivos de GitHub están diseñados para utilizarse con el curso y los módulos de Learn, pero se encuentran en GitHub como un repositorio central para que los MCT y los autores del curso puedan disponer de un origen compartido para los archivos de laboratorio, demostración y ejercicios más recientes.
 
-- Se recomendará a los instructores que revisen GitHub en cada entrega para comprobar los posibles cambios que se hayan realizado con el fin de mejorar la compatibilidad con los últimos servicios de Power Platform, y obtener los archivos más recientes para su entrega.
+- Se recomendará a los instructores que revisen GitHub en cada entrega para comprobar los posibles cambios que se hayan realizado con el fin de mejorar la compatibilidad con los últimos servicios de Power Platform y obtener los archivos más recientes para su entrega.
 
 ## ¿Qué ocurre con los cambios en el contenido del curso?
 
