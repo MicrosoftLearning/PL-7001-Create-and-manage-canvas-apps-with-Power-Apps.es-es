@@ -124,7 +124,10 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
-1. Seleccione la pestaña **Inicio** en el menú de navegación izquierdo.
+1. Seleccione la pestaña **Inicio** en el menú de navegación izquierdo. 
+
+   > Si la alternancia **Probar la nueva experiencia de Power Apps** está habilitada, deshabilítala para que este laboratorio funcione correctamente.
+   > Pronto lanzaremos nuevos laboratorios con la experiencia actualizada.
 
 1. En **Vamos a compilar una aplicación. ¿Qué debería hacer? ** escriba `Assign coffee repairs to technicians per customer request` y seleccione el icono de flecha **Adelante** para enviar.
 
