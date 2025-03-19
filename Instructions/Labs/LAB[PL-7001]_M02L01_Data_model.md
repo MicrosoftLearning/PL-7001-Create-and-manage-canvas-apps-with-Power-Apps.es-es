@@ -35,7 +35,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. Seleccione **Tablas** en el panel de navegación izquierdo.
 
-1. Seleccione **+ Nueva tabla** y elige **Establecer propiedades avanzadas**.
+1. Selecciona **+ Nueva tabla** y elige **Tabla (propiedades avanzadas)**.
 
     ![Captura de pantalla de la creación de una nueva tabla en Dataverse](../media/create-new-table-dataverse.png)
 

@@ -126,17 +126,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
     ![Captura de pantalla de los campos de formulario predeterminados.](../media/add-fields-default.png)
 
-1. Elimina los campos **Estado** y **Notas** seleccionando los puntos suspensivos (**...**) junto a los campos y seleccionando **Eliminar**.
-
-1. Selecciona **+ Agregar campo** y selecciona el campo siguiente:
-
-   1. Decisión
-   
-    ![Captura de pantalla de la adición de campos al formulario.](../media/add-fields.png)
-
-1. Seleccione **Agregar**.
-
-1. Arrastre los campos en el orden siguiente:
+1. Agregar o eliminar los campos para que se organicen en el orden siguiente:
 
    1. Nombre de la mascota
    1. Nombre del propietario
@@ -224,9 +214,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Seleccione **8 seleccionados** junto a **Campos**.
 
-1. Elimina **Decisión** y **Notas** seleccionando los puntos suspensivos (**...**) junto a los campos y seleccionando **Eliminar**.
-
-1. Arrastre los campos en el orden siguiente:
+1. Agregar o eliminar los campos para que se organicen en el orden siguiente:
 
    1. Nombre de la mascota
    1. Nombre del propietario
