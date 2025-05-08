@@ -38,8 +38,22 @@ En este ejercicio, comprobará que puede acceder a Power Apps.
 
 1. Opcionalmente, seleccione **Sí** para mantener la sesión iniciada.
 
+1. Si se te pide que **inicies sesión en Microsoft Edge**, selecciona **No, gracias**.
+
 1. Si se le solicita información de contacto, deje el país o región como valor predeterminado y escriba `0123456789` para Número de teléfono y seleccione **Enviar**.
 
 1. En la parte superior derecha de la pantalla, compruebe que el **Entorno** está establecido en **Dev One**. Aquí es donde trabajará para la totalidad de este laboratorio. Si no es así, seleccione el entorno de **Dev One**.
 
     ![Selector de entorno.](../media/select-dev-one-environment.png)
+
+1. Cierra el panel **Seleccionar entorno**.
+
+### Tarea 1.2: Actualización del explorador
+
+La aplicación de las últimas actualizaciones al explorador evita problemas en el siguiente laboratorio al crear aplicaciones.
+
+1. Abre el explorador **Microsoft Edge**.
+
+1. Selecciona **Comandos (...)** en la parte superior derecha del explorador, **Ayuda y comentarios** y, después, selecciona **Acerca de Microsoft Edge**.
+
+1. Aplica las actualizaciones y reinicia el explorador si es necesario.

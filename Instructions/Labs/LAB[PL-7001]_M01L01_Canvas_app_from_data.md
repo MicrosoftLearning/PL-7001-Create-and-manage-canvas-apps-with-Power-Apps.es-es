@@ -15,8 +15,8 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 ## Pasos de alto nivel del laboratorio
 
-- Creación de una aplicación de lienzo de tres pantallas
-- Prueba de la aplicación
+- Creación de una aplicación de lienzo a partir de los datos
+- Pruebas de la aplicación
 - Creación de una aplicación de lienzo con CoPilot
   
 ## Requisitos previos
@@ -29,7 +29,7 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 ### Tarea 1.1: Descargar la hoja de cálculo de Excel
 
-1. Vaya a [CoffeeMachineData.xlsx](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/coffee-machine-data/CoffeeMachineData.xlsx).
+1. Vaya a [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx).
 
 1. Seleccione el botón de archivo **Raw** (Sin procesar) para descargar el libro de Excel.
 
@@ -43,16 +43,15 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Si se muestra un elemento emergente, seleccione **Su OneDrive está listo**.
 
-1. Seleccione **+ Agregar nuevo** y, posteriormente, seleccione **Carga de archivos**
+1. Selecciona **+ Crear o actualizar** y, después, selecciona **Cargar archivos**.
 
     ![Captura de pantalla de la carga de archivos de OneDrive.](../media/select-onedrive-upload.png)
 
-1. Vaya a Descargas, seleccione el archivo CoffeeMachineData.xlsx y seleccione **Abrir**.
+1. Ve a la carpeta **Descargas**, selecciona el archivo **CoffeeMachineData.xlsx** y selecciona **Abrir**.
 
 1. Seleccione **Mis archivos** y compruebe que CoffeeMachineData.xlsx se ha cargado.
 
-
-## Ejercicio 2: Compilación de una aplicación de lienzo de tres pantallas
+## Ejercicio 2: Creación de una aplicación de lienzo a partir de los datos
 
 ### Tarea 2.1: Crear la aplicación
 
@@ -62,59 +61,65 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Seleccione la pestaña **+ Crear** en el menú de la izquierda.
 
-1. Seleccione el icono de **Excel** en **Inicio desde**.
+1. Selecciona el icono **Iniciar con datos** en **Crear las aplicaciones**.
 
-    ![Captura de pantalla de Inicio desde Excel.](../media/start-from-excel.png)
+    ![Captura de pantalla del icono Iniciar desde datos.](../media/start-with-data.png)
 
-1. Seleccione **+ Nueva conexión**
+1. Selecciona el icono **Conectar datos externos** en **Otras formas de comenzar**.
 
-1. Seleccione **OneDrive para la Empresa**, seleccione **Crear**, inicie sesión con sus credenciales de inquilino y seleccione **Permitir acceso**.
+    ![Captura de pantalla del icono Conectar datos externos.](../media/connect-external-data.png)
 
-1. En Elegir un archivo de Excel, busque y seleccione el archivo de Excel **CoffeeMachineData.xlsx**.
+1. Selecciona el icono **Desde Excel** en **Elegir un conjunto de datos para iniciar**.
 
-1. En Elegir una tabla, seleccione **CoffeeMachines**.
+    ![Captura de pantalla de Iniciar desde Excel.](../media/from-excel.png)
 
-1. Seleccione **Conectar**.
+1. Una conexión de **Excel Online (Empresa)** se creará automáticamente después de un breve retraso.
+
+1. Expande **OneDrive para la Empresa** en **Seleccionar la tabla**.
+
+1. Expande **OneDrive**.
+
+1. Expande el archivo Excel **CoffeeMachineData.xlsx**.
+
+1. Selecciona la tabla **CoffeeMachines**.
+
+    ![Captura de pantalla de la columna de identidad de la tabla CoffeeMachines.](../media/coffeemachines-table.png)
+
+1. Seleccione **Crear aplicación**.
 
 1. Si aparece el cuadro de diálogo emergente **Bienvenido a Power Apps Studio**, seleccione **No volver a mostrarme esto** y seleccione **Omitir**.
 
 1. Espere a que se compile la aplicación.
 
-    ![Captura de pantalla de la pantalla Examinar en una aplicación de tres pantallas.](../media/three-screen-app-browse-screen.png)
+    ![Captura de pantalla de la pantalla principal de la aplicación Coffee Machines.](../media/coffee-machines-app.png)
 
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio, escriba `Coffee Machines App` y seleccione **Guardar**.
 
-
 ### Tarea 2.2: Probar la aplicación
 
-1. Seleccione el icono **Vista previa de la aplicación** en la parte superior derecha de Power Apps Studio.
+1. Selecciona el icono **Vista previa de la aplicación (F5)** en la parte superior derecha de Power Apps Studio.
 
-1. Seleccione cualquier máquina de la galería. Esto le conducirá a la pantalla Detalles.
+1. Seleccione cualquier máquina de la galería. Esto muestra los detalles de la máquina en el formulario.
 
-1. Seleccione el icono **Editar** en la parte superior derecha de la aplicación. Se abrirá la pantalla Editar.
+1. Seleccione el icono **Editar** en la parte superior derecha de la aplicación.
 
-1. Cambie el **Precio de la máquina** y seleccione el icono de tic **Enviar elemento** de la parte superior derecha de la aplicación.
+1. Cambia el **Precio de la máquina** y selecciona el icono **Tic** en la parte superior derecha de la aplicación.
 
-1. Seleccione el icono **<** en la parte superior izquierda de la aplicación.
+1. Seleccione el icono **+ Nuevo** en la parte superior izquierda de la aplicación.
 
-1. Seleccione el icono **+** en la parte superior derecha de la aplicación.
-
-1. Escriba `97` para **Id. de máquina**.
+1. Escribe `abcde` para Id. de máquina.
 
 1. Escriba `Demo Machine` para **Nombre de máquina**.
 
 1. Escriba `999` para **Precio de la máquina**.
 
-1. Seleccione el icono **Enviar elemento** de la parte superior derecha de la aplicación.
-
-1. Escriba `Demo` en **Buscar elementos**.
+1. Selecciona el icono **Tic** en la parte superior derecha de la aplicación.
 
 1. Seleccione **X** en la esquina superior derecha para cerrar la ventana.
 
 1. Si aparece el cuadro de diálogo emergente **¿Lo sabía?**, seleccione **No volver a mostrarme** y seleccione **Aceptar**.
 
 1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
-
 
 ## Ejercicio 3: Compilación de una aplicación de lienzo con Copilot
 
@@ -124,33 +129,41 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
-1. Seleccione la pestaña **Inicio** en el menú de navegación izquierdo. 
+1. Seleccione la pestaña **+ Crear** en el menú de la izquierda.
 
-   > Si la alternancia **Probar la nueva experiencia de Power Apps** está habilitada, deshabilítala para que este laboratorio funcione correctamente.
-   > Pronto lanzaremos nuevos laboratorios con la experiencia actualizada.
+1. Selecciona el **icono Iniciar con Copilot** en **Crear las aplicaciones**.
 
-1. En **Vamos a compilar una aplicación. ¿Qué debería hacer? ** escriba `Assign coffee repairs to technicians per customer request` y seleccione el icono de flecha **Adelante** para enviar.
+1. En **Introducción a Copilot**, escribe `Assign coffee repairs to technicians per customer request`.
 
     ![Captura de pantalla de la solicitud de Copilot.](../media/copilot-prompt.png)
 
+1. Selecciona el icono **Opciones de tabla** y selecciona **Una tabla**.
+
+    ![Captura de las opciones de la tabla de Copilot.](../media/copilot-table-options.png)
+
+1. Seleccione **Generar**.
+
     Copilot comenzará a crear una estructura de tabla para admitir la aplicación.
 
-    > **IMPORTANTE:** Al usar la Inteligencia artificial generativa, no siempre obtendrá los mismos resultados exactos. Es posible que la tabla no coincida exactamente con la tabla creada para otro alumno. 
+    > **IMPORTANTE:** al usar la Inteligencia artificial generativa, no siempre obtendrás los mismos resultados exactos. Es posible que la tabla no coincida exactamente con la tabla creada para otro alumno.
 
-    > Para ver la estructura de la tabla, selecciona la tabla y haz clic en el botón **Ver datos** 
+1. Selecciona **Comandos (...)** junto a la tabla y selecciona **Ver datos**.
+
+    ![Captura de pantalla de la tabla de Copilot.](../media/copilot-table-view-data.png)
+
 1. Revisión de la tabla
 
     ![Captura de pantalla de la tabla de Copilot.](../media/copilot-table.png)
 
-1. Cuando estés satisfecho con la tabla, selecciona el botón **Guardar y abrir aplicación**. 
+1. Cuando estés satisfecho con la tabla, selecciona el botón **Guardar y abrir aplicación**.
 
-1. Si es necesario, en la pantalla **¿Has terminado de trabajar?**, selecciona **No volver a preguntarme** y, después, selecciona el botón **Guardar y abrir aplicación**. 
+1. Si es necesario, en la pantalla **¿Has terminado de trabajar?**, selecciona **No volver a preguntarme** y, después, selecciona el botón **Guardar y abrir aplicación**.
 
 1. Espere a que se compile la aplicación.
 
     ![Captura de pantalla de la compilación de la aplicación de Copilot.](../media/copilot-app.png)
 
-1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
+1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio, escriba `Coffee Machine Repairs App` y seleccione **Guardar**.
 
 1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
 
