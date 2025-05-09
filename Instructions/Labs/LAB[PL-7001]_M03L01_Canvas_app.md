@@ -36,24 +36,13 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
 1. Seleccione la pestaña **+ Crear** en el menú de navegación de la izquierda.
 
-1. Seleccione el icono **Aplicación en blanco** en **Inicio desde**.
+1. Selecciona el icono **Iniciar con un lienzo en blanco** en **Crear las aplicaciones**.
 
-1. Seleccione **Crear** en el icono **Aplicación de lienzo en blanco**.
+1. Selecciona **Tamaño de tableta**.
 
-    ![Captura de pantalla de una creación en blanco.](../media/create-from-blank.png)
+1. Espera a que se compile la aplicación en blanco.
 
-1. Escriba `Booking Request app` para **Nombre de aplicación**.
-
-1. Seleccione **Tableta** para **Formato**.
-
-    ![Captura de pantalla del nuevo nombre de la aplicación.](../media/app-name-format.png)
-
-1. Seleccione **Crear**.
-
-1. Espere a que se compile la aplicación.
-
-1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
-
+1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio, escriba `Booking Request app` y seleccione **Guardar**.
 
 ### Tarea 1.2 - Agregar origen de datos
 
@@ -66,7 +55,6 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
     ![Captura de pantalla de la selección del origen de datos.](../media/studio-data-search.png)
 
 1. Seleccione **Solicitudes de reserva** Tabla de Microsoft Dataverse.
-
 
 ### Tarea 1.3: Configurar la pantalla principal
 
@@ -118,7 +106,6 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
 
-
 ### Tarea 1.4: Agregar una galería
 
 1. En el menú de creación de aplicaciones, seleccione **Insertar (+)**.
@@ -137,6 +124,8 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
 1. Seleccione **Costo** para **Cuerpo1**.
 
+   > **NOTA:** los nombres de campo pueden mostrarse como nombres de esquema con un prefijo en lugar del nombre para mostrar.
+
 1. Seleccione **Decisión** para **Subtítulo2**.
 
 1. Seleccione **Nombre de la mascota** para **Título2**.
@@ -149,13 +138,14 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 
 1. Cambie el nombre de la galería a `BookingRequestList`.
 
+1. Si aparece un cuadro de diálogo emergente de sugerencias, selecciona **Cancelar**.
+
 1. Establezca las propiedades de la galería en la barra de fórmulas de la manera siguiente:
 
    1. X=`0`
    1. Y=`80`
    1. Altura=`575`
    1. Ancho=`250`
-
 
 ### Tarea 1.5: dar formato al campo de moneda
 
@@ -176,4 +166,3 @@ En este laboratorio, diseñará y compilará una aplicación de lienzo desde cer
 1. Seleccione **Guardar** en la parte superior derecha de Power Apps Studio.
 
 1. Seleccione el botón **<- Atrás** en la parte superior izquierda de la barra de comandos y seleccione **Salir** para salir de la aplicación.
-

@@ -45,12 +45,11 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Seleccione la **aplicación Solicitud de reserva**, los comandos (**...**) y **Editar > Editar en una pestaña nueva**.
 
-
 ### Tarea 1.2: Agregar pantallas
 
 1. En el menú de creación de aplicaciones, seleccione **Vista de árbol**.
 
-1. En la barra de acciones de Power Apps Studio, seleccione **Nueva pantalla**.
+1. En la parte superior de la vista de árbol, selecciona **+ Nueva pantalla**.
 
     ![Captura de pantalla de la nueva pantalla.](../media/add-screen.png)
 
@@ -58,12 +57,11 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. Cambie el nombre de la pantalla a `EditScreen`.
 
-1. En la barra de acciones de Power Apps Studio, seleccione **Nueva pantalla**.
+1. En la parte superior de la vista de árbol, selecciona **+ Nueva pantalla**.
 
 1. Seleccione **Encabezado y pie de página**.
 
 1. Cambie el nombre de la pantalla a `DetailScreen`.
-
 
 ### Tarea 1.3: Agregar navegación
 
@@ -91,14 +89,17 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
     Back()
     ```
 
+1. Cambie el nombre del icono a `BackIconEdit`.
+
 1. En la **vista de árbol**, seleccione el icono y seleccione Comandos (**...**) y seleccione **Copiar**.
 
 1. Expanda **DetailScreen**.
 
 1. Expanda **ScreenContainer**.
 
-1. Seleccione **HeaderContainer** y seleccione Comandos (**...**) y **Pegar**.
+1. Selecciona **HeaderContainer** y selecciona Comandos (**...**) y selecciona **Pegar** y **Pegar**.
 
+1. Cambie el nombre del icono a `BackIconDetail`.
 
 ## Ejercicio 2: Pantalla Detalles
 
@@ -122,7 +123,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. En las propiedades de FormViewer, seleccione **Solicitudes de reserva** para **Origen de datos**.
 
-1. Seleccione **8 seleccionados** junto a **Campos**.
+1. Selecciona **10 seleccionados** junto a **Campos**.
 
     ![Captura de pantalla de los campos de formulario predeterminados.](../media/add-fields-default.png)
 
@@ -212,7 +213,7 @@ En este laboratorio, usará formularios para crear y editar registros en un orig
 
 1. En las propiedades del formulario, seleccione **Solicitudes de reserva** para **Origen de datos**.
 
-1. Seleccione **8 seleccionados** junto a **Campos**.
+1. Selecciona **9 seleccionados** junto a **Campos**.
 
 1. Agregar o eliminar los campos para que se organicen en el orden siguiente:
 

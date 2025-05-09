@@ -49,14 +49,13 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Si se muestra el cuadro de diálogo emergente **Inicie el diseño de su sitio**, cierre el cuadro de diálogo.
 
-
 ### Tarea 1.2 Crear una lista de SharePoint
 
 1. En el sitio de SharePoint, seleccione **+ Nuevo** y, a continuación, seleccione **Lista**.
 
     ![Captura de pantalla de la nueva lista de SharePoint.](../media/new-sharepoint-list.png)
 
-1. Seleccione **Lista en blanco**
+1. Selecciona **Lista** en **Crear desde cero**.
 
 1. Escriba `Bookings` en **Nombre** y seleccione **Crear**.
 
@@ -98,7 +97,6 @@ En este laboratorio agregará un origen de datos externo.
 
 1. Copie la primera parte de la dirección URL del sitio de SharePoint, por ejemplo, `https://m365x99999999.sharepoint.com/sites/Petboarding/`
 
-
 ## Ejercicio 2: Incorporación de la lista de SharePoint a la aplicación de lienzo
 
 ### Tarea 2.1: Editar la aplicación
@@ -110,7 +108,6 @@ En este laboratorio agregará un origen de datos externo.
 1. Seleccione la pestaña **Aplicaciones** en el menú de navegación de la izquierda.
 
 1. Seleccione la **aplicación Solicitud de reserva**, los comandos (**...**) y **Editar > Editar en una pestaña nueva**.
-
 
 ### Tarea 2.2: Agregar SharePoint como origen de datos
 
