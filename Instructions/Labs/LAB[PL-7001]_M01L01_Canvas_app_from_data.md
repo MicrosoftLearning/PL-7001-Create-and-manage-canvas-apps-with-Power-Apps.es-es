@@ -29,7 +29,7 @@ En este laboratorio diseñará y compilará una aplicación de lienzo a partir d
 
 ### Tarea 1.1: Descargar la hoja de cálculo de Excel
 
-1. Vaya a [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx).
+1. En un explorador web, ve a [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx) en `https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx`.
 
 1. Seleccione el botón de archivo **Raw** (Sin procesar) para descargar el libro de Excel.
 
